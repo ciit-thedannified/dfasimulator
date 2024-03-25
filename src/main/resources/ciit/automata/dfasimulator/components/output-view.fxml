@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxWidth="300.0" minWidth="250.0" prefHeight="305.0" prefWidth="250.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ciit.automata.dfasimulator.components.OutputViewController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="configuration-title">
+         <children>
+            <Label text="Output" />
+         </children>
+      </HBox>
+      <TextArea fx:id="output_area" editable="false" focusTraversable="false" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </TextArea>
+   </children>
+</VBox>

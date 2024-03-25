@@ -1,0 +1,11 @@
+.configuration-title {
+    -fx-background-color: grey;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40px;
+    -fx-padding: 5px 10px 5px 10px;
+}
+
+.configuration-title * {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
